@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2470324947309601018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8589586508393165105}
@@ -187,15 +187,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2.11
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0.13
+  m_GravityScale: 2.18
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &1445207472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,12 +272,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   maxSpeed: 20
-  jumpForce: 10
+  jumpForce: 18.2
   groundCheck: {fileID: 6157157172694124599}
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
-  cancelJumpEnabled: 1
+  cancelJumpEnabled: 0
 --- !u!61 &7340962779326882604
 BoxCollider2D:
   m_ObjectHideFlags: 0
